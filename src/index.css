@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #312e81, #581c87);
+  color: #f9fafb;
+}
+
+main {
+  width: 90%;
+  max-width: 850px;
+  margin: 40px auto;
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #a78bfa;
+  font-size: 42px;
+}
+
+h2 {
+  margin-top: 35px;
+  color: #ffffff;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+  padding: 24px;
+  background-color: #1f2937;
+  border-radius: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #4b5563;
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: #111827;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 7px;
+  background-color: #7c3aed;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6d28d9;
+}
+
+form button {
+  margin-top: 8px;
+}
+
+ul {
+  display: grid;
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  background-color: #1f2937;
+  border-left: 5px solid #8b5cf6;
+  border-radius: 10px;
+}
+
+li strong {
+  color: #c4b5fd;
+  font-size: 21px;
+}
+
+li p {
+  margin: 8px 0;
+  color: #d1d5db;
+}
+
+li button {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+li button:last-child {
+  background-color: #dc2626;
+}
+
+li button:last-child:hover {
+  background-color: #b91c1c;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 92%;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+
+}
+
+.subtitle {
+  color: #ddd6fe;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
