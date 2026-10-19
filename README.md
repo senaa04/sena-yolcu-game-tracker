@@ -56,3 +56,6 @@ Terminalde gösterilen yerel bağlantıyı tarayıcıda açın.
 4. **Oyun Ekle** butonuna basın.
 5. Eklenen oyunları **Düzenle** veya **Sil** butonlarıyla yönetebilirsiniz.
 
+## Canlı Uygulama
+
+[Game Tracker uygulamasını aç](https://sena-yolcu-game-tracker.netlify.app)
