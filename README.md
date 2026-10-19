@@ -56,11 +56,3 @@ Terminalde gösterilen yerel bağlantıyı tarayıcıda açın.
 4. **Oyun Ekle** butonuna basın.
 5. Eklenen oyunları **Düzenle** veya **Sil** butonlarıyla yönetebilirsiniz.
 
-
-## Production Build
-
-Projeyi yayınlamaya hazır hâle getirmek için:
-
-```bash
-npm run build
-```
